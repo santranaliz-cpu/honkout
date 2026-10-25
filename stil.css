@@ -1,0 +1,16 @@
+/* Honk Out! yasal sayfalar: sade, telefonda okunur; oyunun mavi/lacivert renkleri */
+:root { --koyu: #12307F; --mavi: #2F6BFF; --zemin: #F4F7FF; --yazi: #1B2340; }
+* { box-sizing: border-box; }
+body { overflow-wrap: anywhere; margin: 0; background: var(--zemin); color: var(--yazi); font: 16px/1.6 "Segoe UI", system-ui, -apple-system, Roboto, sans-serif; }
+header { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; padding: 16px; background: linear-gradient(#3E8BFF, #2457D6); color: #fff; }
+header img { width: 48px; height: 48px; border-radius: 22%; display: block; }
+header h1 { margin: 0; font-size: 24px; }
+header nav { margin-left: auto; font-size: 15px; }
+header a { color: #fff; }
+main { max-width: 760px; margin: 0 auto; padding: 16px 16px 48px; }
+section + section { margin-top: 40px; padding-top: 24px; border-top: 2px solid #DCE4F7; }
+h2 { color: var(--koyu); margin: 8px 0 4px; }
+h3 { color: var(--koyu); font-size: 17px; margin: 22px 0 6px; }
+.tarih { color: #6B7488; font-size: 14px; margin-top: 0; }
+a { color: var(--mavi); }
+.ana ul { padding-left: 20px; } .ana li { margin: 8px 0; } .en { color: #6B7488; }
